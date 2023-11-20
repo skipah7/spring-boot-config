@@ -1,0 +1,11 @@
+Description:
+  Version: "1.0"
+  Title: "This is user service config from spring config service"
+Connections:
+  NpgSql:
+    ConnectionString: "Host=0.0.0.0;Port=5432;Username=admin;Password=asev2pzc;Database=micro"
+RabbitMq: 
+  Host: "http://0.0.0.0"
+  Port: 5672
+  Username: "admin"
+  Password: "admin"
