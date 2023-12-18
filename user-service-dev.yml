@@ -3,9 +3,15 @@ Description:
   Title: "This is user service config from spring config service"
 Connections:
   NpgSql:
-    ConnectionString: "Host=localhost;Port=5432;Username=admin;Password=asev2pzc;Database=micro"
+    ConnectionString: "Host=127.0.0.1;Port=5432;Username=admin;Password=asev2pzc;Database=micro"
+KeycloakOptions: 
+  Host: "http://127.0.0.1"
+  Port: 8080
+  Realm: "micro"
+  ClientId: "micro-client"
+  ClientSecret: "RZoZOCgZt1UpitaRIx64ccDsWpA3xaq2"
 RabbitMq: 
-  Host: "http://localhost"
+  Host: "localhost"
   Port: 5672
   Username: "admin"
   Password: "admin"
